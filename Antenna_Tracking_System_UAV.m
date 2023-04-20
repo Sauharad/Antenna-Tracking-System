@@ -2,8 +2,8 @@
 l=input('Enter length of antenna: ');
 az=input('Enter initial azimuth of antenna (rad): ');
 el=input('Enter initial elevation of antenna (rad): ');
-a_x_i=l*sin(el)*cos(az);
-a_y_i=l*sin(el)*sin(az);
+a_x_i=l*sin(1.5707-el)*cos(az);
+a_y_i=l*sin(1.5707-el)*sin(az);
 a_z_i=l*cos(el);
 antenna_pos_initial=[a_x_i;a_y_i;a_z_i];
 
