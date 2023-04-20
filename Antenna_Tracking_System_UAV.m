@@ -4,7 +4,7 @@ az=input('Enter initial azimuth of antenna (rad): ');
 el=input('Enter initial elevation of antenna (rad): ');
 a_x_i=l*sin(1.5707-el)*cos(az);
 a_y_i=l*sin(1.5707-el)*sin(az);
-a_z_i=l*cos(el);
+a_z_i=l*cos(1.5707-el);
 antenna_pos_initial=[a_x_i;a_y_i;a_z_i];
 
 % Inputting required time interval
