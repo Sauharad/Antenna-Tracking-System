@@ -1,7 +1,7 @@
 # Antenna-Tracking-System-UAS
 Problem: To design an Antenna Tracking System using MATLAB code, given the equations of motion of the UAV with respect to time.
 
-Solution Explanation: The length of the antenna, and its initial orientation to the axes is taken as input from the user. The initial rectangular coordinates of the antenna are then calculated using formulas of polar spherical geometry, viz. x=length*sin(elevation)*cos(azimuth), y = length*sin(elevation)*sin(azimuth), z= length*cos(elevation). 
+Solution Explanation: The length of the antenna, and its initial orientation is assumed to be along the x-axis. Hence, the inital coordinates of the antenna are [length;0;0]. 
 
 The user is then asked to input the inital time final time and size of time intervals under which the system is to operate.
 
