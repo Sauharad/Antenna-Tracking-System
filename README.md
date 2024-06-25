@@ -1,4 +1,4 @@
-# Antenna-Tracking-System-UAS
+# Antenna-Tracking-System
 Problem: To design an Antenna Tracking System using MATLAB code, given the equations of motion of the UAV with respect to time.
 
 Solution Explanation: The length of the antenna, and its initial orientation is assumed to be along the x-axis. Hence, the inital coordinates of the antenna are [length;0;0]. 
